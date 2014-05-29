@@ -29,9 +29,19 @@
             "from": "1970-01-01",
             "to": null,
             "contactDetails": {
-                "address": {
-                    "office": "Street Line\nPostal Code\nCity"
-                },
+                "address": [
+                    {
+                        // Type of address. Should come from a small list of
+                        // possible values
+                        "type": "office",
+                        "number": "50-52",
+                        "street": "Street Line 1\nStreet Line 2",
+                        "postalCode": "12345",
+                        "city": "City Name",
+                        // ISO 3166-1 alpha-2
+                        "country": "BE",
+                    }
+                ],
                 "phone": {
                     "office": "+32123456789"
                 },
