@@ -1,3 +1,5 @@
+This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Psycojoker) from the [political-memory/django-representatives](https://github.com/political-memory/django-representatives/blob/master/format.json) repository.
+
 ```json
 {
     "givenName": "John",
@@ -34,12 +36,23 @@
                         // Type of address. Should come from a small list of
                         // possible values
                         "type": "office",
+                        // Optional
+                        "office": "Office 42",
+                        // Optional
+                        "floor": "3rd floor",
                         "number": "50-52",
                         "street": "Street Line 1\nStreet Line 2",
                         "postalCode": "12345",
                         "city": "City Name",
                         // ISO 3166-1 alpha-2
                         "country": "BE",
+                        // Optional
+                        "coordinates": {
+                            // float number (16,14)
+                            "latitude": 0,
+                            // float number (17,14)
+                            "longitude": 0
+                        },
                     }
                 ],
                 "phone": {
