@@ -10,13 +10,13 @@
         // at both national level and EU level)
         {
             // This is supposed to be a kind of ID
-            // ISO 3166-1 alpha-3 + party abbreviation
-            "id": "BEL-ABC",
+            // ISO 3166-1 alpha-2 + party abbreviation
+            "id": "BE-ABC",
             "from": "1970-01-01",
             "to": "1970-01-01"
         },
         {
-            "id": "BEL-ABC",
+            "id": "BE-ABC",
             "from": "1970-01-01",
             "to": null
         }
@@ -24,13 +24,8 @@
     "mandates": [
         {
             // This is supposed to be a kind of ID
-            // ISO 3166-1 alpha-3 + assembly abbreviation
-            "assembly_id": "BEL-K",
-            "from": "1970-01-01",
-            "to": "1970-01-01"
-        },
-        {
-            "assembly_id": "BEL-K",
+            // ISO 3166-1 alpha-2 + assembly abbreviation
+            "assembly_id": "BE-K",
             "from": "1970-01-01",
             "to": null,
             "contactDetails": {
