@@ -25,7 +25,7 @@
         {
             // This is supposed to be a kind of ID
             // ISO 3166-1 alpha-2 + assembly abbreviation
-            "assembly_id": "BE-K",
+            "assemblyId": "BE-K",
             "from": "1970-01-01",
             "to": null,
             "contactDetails": {
