@@ -30,6 +30,12 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
             "assemblyId": "BE-K",
             "from": "1970-01-01",
             "to": null,
+            // We need to link a mandate to a party, in case a MP has several
+            // mandates at the same time for different parties
+            "party": "BE-ABC",
+            // Constituency linked to the mandate. Should use a standard if
+            // possible. ISO 3166-2:BE is used here as an example.
+            "constituency": "BE-WLG",
             "contactDetails": {
                 "address": [
                     {
