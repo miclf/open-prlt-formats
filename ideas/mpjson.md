@@ -59,12 +59,29 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
                             // float number (17,14)
                             "longitude": 0
                         },
+                        // Only for phone numbers associated to a physical
+                        // location (in other words, not cell phones)
+                        "phone": [
+                            {
+                                "number": "+32123456789",
+                                // Optional
+                                "comment": "Secretariat"
+                            }
+                        ],
+                        // Same here, we expect faxes to be linked to places
+                        "fax": [
+                            {
+                                "number": "+32123456789",
+                                // Optional
+                                "comment": "Secretariat"
+                            }
+                        ]
                     }
                 ],
+                // Phone numbers should primarily be associated to locations. If
+                // this is not possible (for example for cell phones), they can
+                // be referenced here
                 "phone": {
-                    "office": "+32123456789"
-                },
-                "fax": {
                     "office": "+32123456789"
                 },
                 // extract to root? Single item instead of array?
