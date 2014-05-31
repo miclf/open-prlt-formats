@@ -84,10 +84,26 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
                 "phone": {
                     "office": "+32123456789"
                 },
-                // extract to root? Single item instead of array?
-                "website": [],
-                // extract this to root?
-                "socialNetworks": []
+                // Optional. Only for websites specifically linked to a given
+                // mandate (should be rare). If a website is linked to the MP
+                // but not to any specific mandate, it should be referenced
+                // higher in the tree. URLs must be absolute.
+                "websites": [
+                    {
+                        "url": "https://example.com",
+                        // Optional
+                        "comment": ""
+                    }
+                ],
+                // Optional. Only if specifically linked to the current mandate.
+                // URLs must be an absolute.
+                "socialNetworks": {
+                    "twitter": {
+                        "url": "https://twitter.com/johndoe",
+                        // Optional
+                        "comment": ""
+                    }
+                }
             }
         }
     ],
