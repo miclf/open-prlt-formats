@@ -81,9 +81,13 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
                 // Phone numbers should primarily be associated to locations. If
                 // this is not possible (for example for cell phones), they can
                 // be referenced here
-                "phones": {
-                    "office": "+32123456789"
-                },
+                "phones": [
+                    {
+                        "number": "+32123456789",
+                        // Optional
+                        "comment": "Office"
+                    }
+                ],
                 // Optional. Only for websites specifically linked to a given
                 // mandate (should be rare). If a website is linked to the MP
                 // but not to any specific mandate, it should be referenced
