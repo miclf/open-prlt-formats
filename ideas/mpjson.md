@@ -37,7 +37,7 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
             // possible. ISO 3166-2:BE is used here as an example.
             "constituency": "BE-WLG",
             "contactDetails": {
-                "address": [
+                "addresses": [
                     {
                         // Type of address. Should come from a small list of
                         // possible values
@@ -61,7 +61,7 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
                         },
                         // Only for phone numbers associated to a physical
                         // location (in other words, not cell phones)
-                        "phone": [
+                        "phones": [
                             {
                                 "number": "+32123456789",
                                 // Optional
@@ -69,7 +69,7 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
                             }
                         ],
                         // Same here, we expect faxes to be linked to places
-                        "fax": [
+                        "faxes": [
                             {
                                 "number": "+32123456789",
                                 // Optional
@@ -81,7 +81,7 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
                 // Phone numbers should primarily be associated to locations. If
                 // this is not possible (for example for cell phones), they can
                 // be referenced here
-                "phone": {
+                "phones": {
                     "office": "+32123456789"
                 },
                 // Optional. Only for websites specifically linked to a given
