@@ -23,6 +23,14 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
             "to": null
         }
     ],
+    // General contact details, not linked to any mandate
+    "contactDetails": {
+        "addresses": [],
+        "phones": [],
+        "faxes": [],
+        "websites": [],
+        "socialNetworks": {}
+    },
     "mandates": [
         {
             // This is supposed to be a kind of ID
@@ -36,6 +44,9 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
             // Constituency linked to the mandate. Should use a standard if
             // possible. ISO 3166-2:BE is used here as an example.
             "constituency": "BE-WLG",
+            // Only contact details that are specifically linked to the current
+            // mandate. More generic contact details or personal contact details
+            // of the MP must not be referenced here.
             "contactDetails": {
                 "addresses": [
                     {
