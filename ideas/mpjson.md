@@ -1,6 +1,6 @@
 This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Psycojoker) from the [political-memory/django-representatives](https://github.com/political-memory/django-representatives/blob/master/format.json) repository.
 
-```json
+```javascript
 {
     "givenName": "John",
     "surname": "Doe",
