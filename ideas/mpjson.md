@@ -119,7 +119,19 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
                         "comment": ""
                     }
                 }
-            }
+            },
+            // Participation of the MP to committes, working groups,
+            // etc. during the mandate.
+            "committees": [
+                {
+                    // This is supposed to be a kind of ID. This committee is
+                    // itself related to a specific assembly
+                    "committeeId": "INFRA",
+                    "from": "1970-01-01",
+                    "to": null,
+                    "role": ""
+                }
+            ]
         }
     ],
     // Maybe find a better name… Array of events/mandates/whatever that are out
