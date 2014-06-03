@@ -31,6 +31,15 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
         "websites": [],
         "socialNetworks": {}
     },
+    "education": [
+        // Array of strings
+    ],
+    "professionalCareer": [
+        // Array of strings
+    ],
+    "publications": [
+        // Array of strings
+    ],
     "mandates": [
         {
             // This is supposed to be a kind of ID
