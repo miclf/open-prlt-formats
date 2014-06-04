@@ -150,4 +150,25 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
 }
 ```
 
+## Assemblies
+
+```javascript
+{
+    // Chamber of Representatives
+    "BE-K": {},
+    // Senate
+    "BE-S": {},
+    // Walloon Parliament
+    "BE-W": {},
+    // Parliament of the French Community
+    "BE-F": {},
+    // Flemish Parliament
+    "BE-V": {},
+    // Brussels Parliament
+    "BE-B": {},
+    // Parliament of the German-speaking Community
+    "BE-D": {}
+}
+```
+
 JSON Schema: http://json-schema.org/documentation.html
