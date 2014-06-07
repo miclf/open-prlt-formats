@@ -169,7 +169,9 @@ This JSON structure takes a few good ideas by [Psycojoker](https://github.com/Ps
     // Brussels Parliament
     "BE-B": {},
     // Parliament of the German-speaking Community
-    "BE-D": {}
+    "BE-D": {},
+    // European Parliament
+    "EU-P": {}
 }
 ```
 
